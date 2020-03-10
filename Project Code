@@ -1,5 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+    img {
+    width: 30%;
+    }
+    </style>
+</head>
 <body>
-    <h1>UNR College of Business</h1>
+    <h1 style="font-size:72px">UNR College of Business <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Nevada_Wolf_Pack_logo.svg/1200px-Nevada_Wolf_Pack_logo.svg.png" style="float:right" /></h1>
     <h2>4 Year Major Map</h2>
     <script type="text/javascript" src="https://BizUNR.formstack.com/forms/js.php/marlintest"></script><noscript><a href="https://BizUNR.formstack.com/forms/marlintest" title="Online Form">Online Form - MarlinTest</a></noscript><div style="text-align:right; font-size:x-small;"><a href="http://www.formstack.com?utm_source=jsembed&utm_medium=product&utm_campaign=product+branding&fa=h,3784854" title="Powered by Formstack">Powered by Formstack</a></div>
 </body>
+</html>
