@@ -7,10 +7,15 @@
     <style>
         body {
             width: 1024px;
-            background-color: navy;
+            background-color: midnightblue;
             color: white;
             margin: auto;
             height: 100%
+        }
+        
+        div.a{
+            text-align: center;
+            font-family: sans-serif;
         }
     </style>
     <!-- This is for the print button, was a pain tos the figure out but works - Onick -->
@@ -35,7 +40,7 @@
             </tr>
         </table>
     </nav>
-    <div>
+    <div class="a">
         <!-- We can ask Jeremey for a better description. This is just a test sample. -Onick -->
         <h1>College of Business <br />Undergraduate Course Plan</h1>
 
@@ -49,7 +54,9 @@
                 be directed to your major adviser (visit https://www.unr.edu/business/student-resources/advising/undergraduate-advising for a complete list)
             </p>
         </section>
-
+     </div>
+     
+     <div>
             <section>
                 <h3>Four Year Plans</h3>
                 <!-- This part is also part of the print button right before the formstack script code -Onick -->
