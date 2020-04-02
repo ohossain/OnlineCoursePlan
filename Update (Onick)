@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Online Study Plan</title>
+    <!-- Might add bootstrap later. Also feel free to change the css into a css file this is just my test. -Onick  -->
+    <style>
+        body {
+            width: 1024px;
+            background-color: navy;
+            color: white;
+            margin: auto;
+            height: 100%
+        }
+    </style>
+    <!-- This is for the print button, was a pain tos the figure out but works - Onick -->
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            .print-container, .print-container * {
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- If we need a navigation bar I created the template here. We can delete this later. -Onick -->
+    <nav>
+        <table>
+            <tr>
+                <td><a href="./index.html">Home</a></td>
+            </tr>
+        </table>
+    </nav>
+    <div>
+        <!-- We can ask Jeremey for a better description. This is just a test sample. -Onick -->
+        <h1>College of Business <br />Undergraduate Course Plan</h1>
+
+        <section>
+            <p>
+                This tool will help you determine courses required for your major in the college of business. This includes
+                courses required for the major, order sequencing, and overview of the timeline.
+            </p>
+            <p>
+                For general academic advising, visit the College of Business Student Success Center, Room 409 in Ansari Buiness Building. Advising Web resources are also available at https://www.unr.edu/business/student-resources/advising. Questions related to requirements in your major should
+                be directed to your major adviser (visit https://www.unr.edu/business/student-resources/advising/undergraduate-advising for a complete list)
+            </p>
+        </section>
+
+            <section>
+                <h3>Four Year Plans</h3>
+                <!-- This part is also part of the print button right before the formstack script code -Onick -->
+                <button onclick="window.print();">
+                    Print
+                </button>
+                <div class="row print-container">
+                    <script type="text/javascript" src="https://BizUNR.formstack.com/forms/js.php/onicktest"></script><noscript><a href="https://BizUNR.formstack.com/forms/onicktest" title="Online Form">Online Form - OnickTest</a></noscript><div style="text-align:right; font-size:x-small;"><a href="http://www.formstack.com?utm_source=jsembed&utm_medium=product&utm_campaign=product+branding&fa=h,3820505" title="Powered by Formstack">Powered by Formstack</a></div>
+                </div>
+            </section>
+
+    </div>
+    <footer>
+        <!-- Put this logo in for decorative purposes, we can replace or delete. - Onick -->
+        <img src="https://www.unr.edu/Images/president/im/basic-logos/downloads/nevada-blockn-black.png" alt="Nevada Logo" width="150" height="150" />
+        <!-- Copyright can be deleted as well. Just a good practice to have on. - Onick -->
+        <p>&copy;University of Nevada, Reno</p>
+    </footer>
+
+
+</body>
+</html>
